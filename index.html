@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary SEO -->
+    <title>Archeo Café and Hostel | Dünyanın ilk ve tek arkeoloji temalı hostel</title>
+    <meta name="description" content="Dünyanın ilk ve tek arkeoloji temalı hostel Archeo'ya hoş geldiniz. İstanbul'un kalbinde özel odalar, yatakhaneler, yerel kafe, ortak çalışma alanı, atölyeler ve etkinlikler sunuyoruz.">
+    <meta name="keywords" content="Archeo, Hostel, Cafe, İstanbul hostel, Arkeoloji temalı hostel, Budget accommodation İstanbul">
+    <link rel="canonical" href="https://www.archeopol.com/">
+
+    <!-- OpenGraph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.archeopol.com/">
+    <meta property="og:title" content="Archeo Café and Hostel | Dünyanın ilk ve tek arkeoloji temalı hostel">
+    <meta property="og:description" content="Dünyanın ilk ve tek arkeoloji temalı hostel Archeo'ya hoş geldiniz. İstanbul'un kalbinde özel odalar, yatakhaneler, yerel kafe, ortak çalışma alanı, atölyeler ve etkinlikler sunuyoruz.">
+    <meta property="og:image" content="https://www.archeopol.com/wp-content/uploads/2021/08/cropped-cropped-ARCHEO-LOGO-1.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.archeopol.com/">
+    <meta property="twitter:title" content="Archeo Café and Hostel | Dünyanın ilk ve tek arkeoloji temalı hostel">
+    <meta property="twitter:description" content="Dünyanın ilk ve tek arkeoloji temalı hostel Archeo'ya hoş geldiniz.">
+    <meta property="twitter:image" content="https://www.archeopol.com/wp-content/uploads/2021/08/cropped-cropped-ARCHEO-LOGO-1.png">
+
+    <!-- Performance: preload hero image & fonts -->
+    <link rel="preload" href="https://www.archeopol.com/wp-content/uploads/2025/04/WhatsApp-Image-2025-02-07-at-14.08.52-scaled.jpeg" as="image">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rubik:wght@800&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <style>
+        :root{
+            --primary:#ff4d00;
+            --primary-hover:#e54500;
+            --secondary:#5b320d;
+            --text:#666666;
+            --background:#ffffff;
+            --max-width:1200px;
+        }
+        *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+        html{scroll-behavior:smooth;}
+        body{font-family:'Inter',sans-serif;color:var(--text);background:var(--background);line-height:1.6;-webkit-font-smoothing:antialiased;}
+        header{position:sticky;top:0;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,.05);z-index:999;}
+        .container{max-width:var(--max-width);margin:auto;padding:0 1rem;}
+        .nav{
+            display:flex;align-items:center;justify-content:space-between;height:70px;
+        }
+        .logo img{height:50px;width:auto;}
+        nav ul{display:flex;gap:1.5rem;list-style:none;}
+        nav a{color:#000;text-decoration:none;font-weight:500;transition:color .2s;}
+        nav a:hover{color:var(--primary);}
+        .btn-primary{background:var(--primary);color:#fff;text-decoration:none;padding:.65rem 1.25rem;border-radius:3px;font-weight:600;transition:background .2s;}
+        .btn-primary:hover{background:var(--primary-hover);}
+
+        /* Hero */
+        .hero{position:relative;height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff;overflow:hidden;}
+        .hero::before{content:"";position:absolute;inset:0;z-index:-2;background:url('https://www.archeopol.com/wp-content/uploads/2025/04/WhatsApp-Image-2025-02-07-at-14.08.52-scaled.jpeg') center/cover no-repeat;filter:brightness(.5);}        
+        .hero h1{font-family:'Rubik',sans-serif;font-size:clamp(1.5rem,4vw,3rem);margin-bottom:1rem;}
+        .hero .btn-primary{font-size:1rem;}
+
+        /* Welcome */
+        .section{padding:4rem 1rem;}
+        .section-title{font-size:2rem;font-weight:700;color:#000;margin-bottom:1.5rem;text-align:center;}
+        .welcome{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));align-items:center;gap:2rem;}
+        .welcome img{width:100%;height:auto;border-radius:6px;}
+        .welcome p{margin-bottom:1rem;}
+
+        /* Rooms grid */
+        .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2rem;margin-top:2rem;}
+        .card{border:1px solid #eee;border-radius:6px;overflow:hidden;box-shadow:0 4px 10px rgba(0,0,0,.05);transition:transform .2s;}
+        .card:hover{transform:translateY(-4px);}
+        .card img{width:100%;height:200px;object-fit:cover;}
+        .card-body{padding:1rem;}
+        .card-body h3{margin-bottom:.75rem;font-size:1.25rem;color:#000;}
+        .footer{background:#161616;color:#ccc;padding:2rem 1rem;}
+        .footer p{text-align:center;font-size:.875rem;}
+        /* Responsive nav */
+        @media(max-width:768px){
+            nav ul{display:none;}
+            .mobile-toggle{display:block;cursor:pointer;}
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container nav">
+            <a class="logo" href="#"><img src="https://www.archeopol.com/wp-content/uploads/2021/08/cropped-cropped-ARCHEO-LOGO-1.png" alt="Archeo Logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li><a href="#rooms">HOSTEL</a></li>
+                    <li><a href="#cafe">CAFÉ</a></li>
+                    <li><a href="#activities">ACTIVITIES</a></li>
+                    <li><a href="#directions">DIRECTIONS</a></li>
+                </ul>
+            </nav>
+            <a class="btn-primary" href="https://www.reseliva.com/booknow/Archeo-Cafe-Hostel/?lang=en">BOOK NOW</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div>
+            <h1>Dünyanın ilk ve tek arkeoloji temalı hostel.</h1>
+            <a class="btn-primary" href="https://www.reseliva.com/booknow/Archeo-Cafe-Hostel/?lang=en">HEMEN REZERVASYON YAP</a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2 class="section-title">Archeo'ya hoş geldiniz, İstanbul'a aşk mektubumuz.</h2>
+        <div class="container welcome">
+            <div>
+                <p>Archeo, misafirlerimizle bağ kurmak, yerel topluluğumuzu desteklemek ve kültürel açıdan zengin, sosyal olarak sorumlu ve keyifli bir atmosfer yaratmakla ilgilidir.</p>
+                <p>Hostelimizde konaklayabilir (konfor için güzel özel odalar ve topluluk için yatakhaneler sunuyoruz) veya yerel kafemizi, ortak çalışma alanımızı, atölyelerimizi ve özel etkinliklerimizi deneyimleyebilirsiniz.</p>
+                <a class="btn-primary" href="https://www.archeopol.com/about/">HAKKIMIZDA</a>
+            </div>
+            <div>
+                <img src="https://www.archeopol.com/wp-content/uploads/2025/04/WhatsApp-Image-2025-02-07-at-14.08.52-scaled.jpeg" alt="Archeo İstanbul">
+            </div>
+        </div>
+    </section>
+
+    <section id="rooms" class="section" style="background:#fafafa;">
+        <div class="container">
+            <h2 class="section-title">Odalar &amp; Yatakhaneler</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="https://www.archeopol.com/wp-content/uploads/2023/02/hostel-room-1-768x512.jpg" alt="Private Room">
+                    <div class="card-body">
+                        <h3>Özel Odalar</h3>
+                        <p>Konforlu özel odalarımızda kendinize ait bir alanda dinlenin.</p>
+                        <a class="btn-primary" style="display:inline-block;margin-top:.5rem;" href="https://www.reseliva.com/booknow/Archeo-Cafe-Hostel/?lang=en">REZERVE ET</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://www.archeopol.com/wp-content/uploads/2023/02/hostel-dorm-768x512.jpg" alt="Dorm Room">
+                    <div class="card-body">
+                        <h3>Yatakhaneler</h3>
+                        <p>Topluluğa katılın ve uygun fiyatlı yatakhanelerimizde yeni arkadaşlar edinin.</p>
+                        <a class="btn-primary" style="display:inline-block;margin-top:.5rem;" href="https://www.reseliva.com/booknow/Archeo-Cafe-Hostel/?lang=en">REZERVE ET</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cafe" class="section">
+        <div class="container">
+            <h2 class="section-title">Café</h2>
+            <p style="text-align:center;max-width:700px;margin:auto;">Yerel üreticilerden temin edilen kahve ve taze lezzetlerimizle gün boyu enerji toplayın. Rahat atmosferimizde çalışın, sohbet edin veya etkinliklerimize katılın.</p>
+        </div>
+    </section>
+
+    <section id="activities" class="section" style="background:#fafafa;">
+        <div class="container">
+            <h2 class="section-title">Aktiviteler</h2>
+            <p style="text-align:center;max-width:700px;margin:auto;">Arkeolojik yürüyüşler, atölyeler ve İstanbul'un gizli kalmış hazinelerini keşfedin. Archeo ile unutulmaz deneyimler yaşayın!</p>
+        </div>
+    </section>
+
+    <section id="directions" class="section">
+        <div class="container">
+            <h2 class="section-title">Ulaşım</h2>
+            <p style="text-align:center;max-width:700px;margin:auto;">Archeo'ya ulaşmak çok kolay! Bizimle <a href="https://www.archeopol.com/directions/">konum sayfamızdan</a> ve ayrıntılı toplu taşıma tarifeleriyle iletişime geçin.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2025 Archeo Café & Hostel. Tüm hakları saklıdır.</p>
+    </footer>
+
+</body>
+</html>
