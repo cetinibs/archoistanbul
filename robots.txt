@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /assets/
+Sitemap: https://www.archeopol.com/sitemap.xml
+
+# Crawl-delay for bots
+User-agent: *
+Crawl-delay: 1
